@@ -1,0 +1,26 @@
+$(document).ready(function(){
+	$(".one").click(function(){
+		$("#one").toggle(function(){
+			$(".plus1").toggle();
+			$(".minus1").toggle();
+		});
+	});
+	$(".two").click(function(){
+		$("#two").toggle(function(){
+			$(".plus2").toggle();
+			$(".minus2").toggle();
+		});
+	});
+	$(".three").click(function(){
+		$("#three").toggle(function(){
+			$(".plus3").toggle();
+			$(".minus3").toggle();
+		});
+	});
+	$(".four").click(function(){
+		$("#four").toggle(function(){
+			$(".plus4").toggle();
+			$(".minus4").toggle();
+		});
+	});
+});
